@@ -1,0 +1,37 @@
+// Add the below code into settings_schema.json 
+
+      {
+        "type": "text",
+        "id": "pcard_option_name2",
+        "label": "Option name 2",
+        "default": "Size",
+        "info": "Example: Color, Size, Material..."
+      },
+      {
+        "type": "select",
+        "id": "pcard_option_design2",
+        "label": "Option design 2",
+        "default": "button",
+        "options": [
+          {
+            "value": "default",
+            "label": "Custom image"
+          },
+          {
+            "value": "color",
+            "label": "Color"
+          },
+          {
+            "value": "image",
+            "label": "Variant image"
+          },
+          {
+            "value": "button",
+            "label": "Button"
+          },
+          {
+            "value": "dropdown",
+            "label": "Dropdown"
+          }
+        ]
+      }
